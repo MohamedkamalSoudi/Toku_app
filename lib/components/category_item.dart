@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class Category extends StatelessWidget {
-  Category({this.text, this.color});
+  Category({this.text, this.color, required Null Function() onTap});
   String? text;
   Color? color;
   @override

@@ -6,7 +6,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:toku/screens/home_page.dart';
 import 'package:device_preview/device_preview.dart';
 
-void main() => runApp(
+void main() => runApp( 
   DevicePreview(
     enabled: !kReleaseMode,
     builder: (context) => TokuApp(), // Wrap your app
