@@ -8,7 +8,7 @@ class ListItem extends StatelessWidget {
   const ListItem({
     Key? key,
     required this.item,
-    required this.color,
+    required this.color, required String itemType,
   }) : super(key: key);
   final ItemModel item;
 

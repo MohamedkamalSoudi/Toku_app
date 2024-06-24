@@ -19,52 +19,52 @@ class FamilyMembersPage extends StatelessWidget {
       image: 'assets/images/family_members/family_mother.png',
     ),
     ItemModel(
-      sound: 'sounds/family_members/older bother.wav',
+      sound: 'sounds/family_members/younger_brohter.wav',
       jpName: 'San',
       enName: 'Brother',
       image: 'assets/images/family_members/family_younger_brother.png',
     ),
     ItemModel(
-      sound: 'sounds/family_members/older sister.wav',
+      sound: 'sounds/family_members/younger_sister.wav',
       jpName: 'Shi',
       enName: 'Sister',
       image: 'assets/images/family_members/family_younger_sister.png',
     ),
     ItemModel(
-      sound: 'sounds/family_members/older bother.wav',
+      sound: 'sounds/family_members/older_bother.wav',
       jpName: 'Go',
       enName: 'Older brother',
       image: 'assets/images/family_members/family_older_brother.png',
     ),
     ItemModel(
-      sound: 'sounds/family_members/older sister.wav',
+      sound: 'sounds/family_members/older_sister.wav',
       jpName: 'Roku',
       enName: 'Older sister',
       image: 'assets/images/family_members/family_older_sister.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
+      sound: 'sounds/family_members/grand_father.wav',
       jpName: 'Sebun',
-      enName: 'seven',
-      image: 'assets/images/numbers/number_seven.png',
+      enName: 'Grand father',
+      image: 'assets/images/family_members/family_grandfather.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
+      sound: 'sounds/family_members/grand_mother.wav',
       jpName: 'hachi',
-      enName: 'eight',
-      image: 'assets/images/numbers/number_eight.png',
+      enName: 'Grand mother',
+      image: 'assets/images/family_members/family_grandmother.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
+      sound: 'sounds/family_members/son.wav',
       jpName: 'Kyū',
-      enName: 'nine',
-      image: 'assets/images/numbers/number_nine.png',
+      enName: 'Son',
+      image: 'assets/images/family_members/family_son.png',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
+      sound: 'sounds/family_members/daughter.wav',
       jpName: 'Jū',
-      enName: 'ten',
-      image: 'assets/images/numbers/number_ten.png',
+      enName: 'Daughter',
+      image: 'assets/images/family_members/family_daughter.png',
     ),
   ];
 
@@ -80,7 +80,7 @@ class FamilyMembersPage extends StatelessWidget {
         itemBuilder: (context, index) {
           return ListItem(
             color: const Color(0xff558B37),
-            item: numbers[index],
+            item: numbers[index], itemType: '',
           );
         },
       ),

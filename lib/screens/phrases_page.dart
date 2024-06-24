@@ -9,60 +9,53 @@ class PhrasesPage extends StatelessWidget {
   final List<ItemModel> phrasesList = const [
     ItemModel(
       sound: 'sounds/phrases/are_you_coming.wav',
-      jpName: 'chich',
-      enName: 'Are you coming',
+      jpName: 'Kimasu ka',
+      enName: 'Are you coming ',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_two_sound.mp3',
-      jpName: 'Ni',
-      enName: 'two',
+      sound: 'sounds/phrases/dont_forget_to_subscribe.wav',
+      jpName: 'Kōdoku o wasurenaide kudasai',
+      enName: 'Dont forget to subscribe',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
-      jpName: 'San',
-      enName: 'three',
+      sound: 'sounds/phrases/how_are_you_feeling.wav',
+      jpName: 'Go kibun wa ikagadesu ka',
+      enName: 'How are you feeling',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
-      jpName: 'Shi',
-      enName: 'four',
+      sound: 'sounds/phrases/i_love_anime.wav',
+      jpName: 'Watashi wa anime ga daisukidesu',
+      enName: 'I love anime',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
-      jpName: 'Go',
-      enName: 'five',
-      image: 'assets/images/numbers/number_five.png',
+      sound: 'sounds/phrases/i_love_programming.wav',
+      jpName: 'Puroguramingu daisuki',
+      enName: 'I love programming',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
-      jpName: 'Roku',
-      enName: 'six',
-      image: 'assets/images/numbers/number_six.png',
+      sound: 'sounds/phrases/programming_is_easy.wav',
+      jpName: 'Puroguramingu wa kantandesu',
+      enName: 'Programming is easy',
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
-      jpName: 'Sebun',
-      enName: 'seven',
-      image: 'assets/images/numbers/number_seven.png',
+      sound: 'sounds/phrases/what_is_your_name.wav',
+      jpName: 'Anata no namae wa nandesuka',
+      enName: 'What is your name',
+      
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
-      jpName: 'hachi',
-      enName: 'eight',
-      image: 'assets/images/numbers/number_eight.png',
+      sound: 'sounds/phrases/where_are_you_going.wav',
+      jpName: 'Doko ni iku no',
+      enName: 'Where are you going',
+      
     ),
     ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
-      jpName: 'Kyū',
-      enName: 'nine',
-      image: 'assets/images/numbers/number_nine.png',
+      sound: 'sounds/phrases/yes_im_coming.wav',
+      jpName: 'Hai, kimasu',
+      enName: 'Yes im coming',
+      
     ),
-    ItemModel(
-      sound: 'sounds/numbers/number_one_sound.mp3',
-      jpName: 'Jū',
-      enName: 'ten',
-      image: 'assets/images/numbers/number_ten.png',
-    ),
+    
   ];
 
   @override
