@@ -72,7 +72,7 @@ class NumbersPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Numbers'),
+        title: const Text('Numbers',style: TextStyle(color: Colors.white),),
         backgroundColor: const Color(0xff46322B),
       ),
       body: ListView.builder(

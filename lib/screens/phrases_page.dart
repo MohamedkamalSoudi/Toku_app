@@ -62,7 +62,7 @@ class PhrasesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Phrases'),
+        title: const Text('Phrases',style: TextStyle(color: Colors.white),),
         backgroundColor: const Color(0xff46322B),
       ),
       body: ListView.builder(
